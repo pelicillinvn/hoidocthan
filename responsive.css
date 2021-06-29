@@ -1,0 +1,8 @@
+@media (min-width: 46.25em) and (max-width: 63.9375em) { 
+    .info-link {
+        font-size: 12px;
+    }
+    .tab-item {
+        line-height: 20px;
+    }
+}

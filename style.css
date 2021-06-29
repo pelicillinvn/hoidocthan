@@ -191,6 +191,7 @@ html {
     text-align: left;
     line-height: 20px;
     margin-right: 10px;
+    padding-left: 20px;
 
   }
   .information-tab {
@@ -208,6 +209,14 @@ html {
     padding: 14px 4px 18px 4px;
     margin: 0;
     border-radius: 10px;
+  }
+  .info-link {
+    text-decoration: none;
+    color: rgb(36, 113, 202);
+  }
+  .info-link:hover {
+    color: #ccc;
+    opacity: 0.8;
   }
   .memory {
     background-color: #fff;
