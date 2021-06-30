@@ -357,10 +357,9 @@ tabs.forEach((tab, index) => {
              if (isClosed) {
                  header.style.height = 'auto';
                 //  document.getElementById("header-overlay").style.top = '${isClosed} + px'
-                 document.getElementById("header-overlay").style.display = "block";
+                //  document.getElementById("header-overlay").style.display = "block";
              } else {
-                 header.style.height = null;
-                 document.getElementById("header-overlay").style.display = "none";
+                 header.style.height = null;               
              }
             }
             var menuItems = document.querySelectorAll('#header__navbar-list1 li a[href*="#"]');
@@ -371,6 +370,7 @@ tabs.forEach((tab, index) => {
              var isParentMenu = this.nextElementSibling;
          if (isParentMenu) {
             event.preventDefault();
+            
             } else {
             header.style.height = null;
             }
