@@ -440,10 +440,10 @@
         width: 984px;
     }
 
-    .wide .row {
+    /* .wide .row {
         margin-left: -12px;
         margin-right: -12px;
-    }
+    } */
 
     .wide .row.sm-gutter {
         margin-left: -5px;
@@ -451,8 +451,8 @@
     }
 
     .wide .col {
-        padding-left: 12px;
-        padding-right: 12px;
+        /* padding-left: 12px;
+        padding-right: 12px; */
     }
 
     .wide .row.sm-gutter .col {

@@ -21,19 +21,24 @@ html {
     padding: 0 0px;
     display: block;
     position: fixed;
-    top:0;
+    top: 0px;
     left: 0;
     right: 0;
+    height: 45px;
 }
 .header__navbar-list li {
     display: inline-block;
     
+}
+.header__navbar-item {
+  padding-bottom: 0;
 }
 .item-link {
     text-decoration: none;
     color: #fff;
     font-size: 16px;
     padding: 13px 16px 13px 16px;
+    margin-left: 5px;
     
 }
 .item-link:hover {
@@ -44,13 +49,16 @@ html {
 .header__navbar-item {
    
 }
+.mobile-menu-btn {
+  display: none;
+}
 .search__btn-icon {
     position: fixed;
     right: 0;
     top: 0;
     font-size: 18px;
     padding: 0.7em 0.7em 0.7em 0.7em;
-    margin-right: 40px;
+    margin-right: 5%;
     color: #fff;
 }
 .search__btn-icon:hover {
@@ -105,7 +113,7 @@ html {
    background-color: #fff;
    border: 2px solid rgb(83, 155, 236);
    border-radius: 50%;
-   padding: 0px 0px;
+   padding: 0;
 }
 .member-img {
     padding-top: 100%;
@@ -121,8 +129,7 @@ html {
 
   
   body > div {
-    margin: 15% auto 0;
-    
+    margin: 15% auto 0; 
   }
   .tabs {
     display: flex;
