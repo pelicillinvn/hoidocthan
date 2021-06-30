@@ -5,4 +5,13 @@
     .tab-item {
         line-height: 20px;
     }
+    
+}
+@media (max-width: 46.1875em) {
+    .header__navbar-list li {
+        display: block;
+    }
+    .header__navbar-list li {
+        padding: 6px 4px;
+    }
 }
